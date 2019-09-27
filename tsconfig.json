@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "inlineSources": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "rootDir": "./src",
+        "outDir": "./build",
+        "types": ["jest"],
+        "baseUrl": "./src/",
+        "paths": {
+            "#/*": ["*"]
+        },
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": ["node_modules"],
+    "compileOnSave": true
+}

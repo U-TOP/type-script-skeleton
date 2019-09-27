@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":";;AAAa,QAAA,UAAU,GAAG,CAAC,IAAY,EAAU,EAAE,CAAC,SAAS,IAAI,EAAE,CAAA","sourcesContent":["export const helloWorld = (name: string): string => `Hello ${name}`"]}
